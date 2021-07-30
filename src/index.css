@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url(Images/warm.jfif);
+
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+  user-select: none;
+}
+main {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.21),
+    rgba(0, 0, 0, 0.651)
+  );
+  height: 100vh;
+  padding: 2rem;
+}
+.city {
+  width: 100%;
+  margin: auto;
+  padding: 0.2rem 0.3rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  border-radius: 0.43rem 0.43rem 0rem 0rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.city-name h3 {
+  font-size: 39px;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.52);
+  text-align: center;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+}
+.form-control:focus,
+.form-control {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+app.cold {
+  background-image: url(Images/cold.jfif);
+}
